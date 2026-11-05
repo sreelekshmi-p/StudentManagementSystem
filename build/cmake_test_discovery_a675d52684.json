@@ -1,0 +1,124 @@
+{
+  "tests": 20,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "StudentManagementMockTests",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "ReportsSuccessfulStudentAddition",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagementMockTests.cpp",
+          "line": 10
+        },
+        {
+          "name": "ReportsDependencyFailureWhenAdditionIsRejected",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagementMockTests.cpp",
+          "line": 27
+        },
+        {
+          "name": "ReportsRejectedDuplicateRecord",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagementMockTests.cpp",
+          "line": 40
+        },
+        {
+          "name": "DoesNotCallManagerWhenStudentIdIsMalformed",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagementMockTests.cpp",
+          "line": 64
+        },
+        {
+          "name": "CallsManagerOnceForEachValidAddition",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagementMockTests.cpp",
+          "line": 77
+        }
+      ]
+    },
+    {
+      "name": "StudentManagerTests",
+      "tests": 11,
+      "testsuite": [
+        {
+          "name": "NewManagerIsEmpty",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagerTests.cpp",
+          "line": 11
+        },
+        {
+          "name": "AddsValidStudent",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagerTests.cpp",
+          "line": 19
+        },
+        {
+          "name": "FindsExistingStudentById",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagerTests.cpp",
+          "line": 27
+        },
+        {
+          "name": "RejectsInvalidStudentData",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagerTests.cpp",
+          "line": 37
+        },
+        {
+          "name": "AcceptsInclusiveIdAndMarksBoundaries",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagerTests.cpp",
+          "line": 56
+        },
+        {
+          "name": "RejectsDuplicateIdAndKeepsOriginalRecord",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagerTests.cpp",
+          "line": 64
+        },
+        {
+          "name": "ReturnsNullForMissingId",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagerTests.cpp",
+          "line": 76
+        },
+        {
+          "name": "CalculatesAverageMarks",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagerTests.cpp",
+          "line": 83
+        },
+        {
+          "name": "FindsHighestMarkAndKeepsFirstOnTie",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagerTests.cpp",
+          "line": 92
+        },
+        {
+          "name": "DisplaysMessageWhenEmpty",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagerTests.cpp",
+          "line": 103
+        },
+        {
+          "name": "DisplaysStoredStudent",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentManagerTests.cpp",
+          "line": 114
+        }
+      ]
+    },
+    {
+      "name": "StudentTests",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "CanCreateStudentWithProvidedValues",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentTests.cpp",
+          "line": 5
+        },
+        {
+          "name": "GetStudentIdReturnsProvidedId",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentTests.cpp",
+          "line": 12
+        },
+        {
+          "name": "GetStudentNameReturnsProvidedName",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentTests.cpp",
+          "line": 18
+        },
+        {
+          "name": "GetMarksReturnsProvidedMarks",
+          "file": "C:\\Users\\labuser\\C++ Training\\05_Debugging And Code UNderstanding\\tests\\StudentTests.cpp",
+          "line": 24
+        }
+      ]
+    }
+  ]
+}

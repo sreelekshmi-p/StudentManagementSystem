@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/mingw/cmake_install.cmake",
+		"C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/mingw/_deps/googletest-build/cmake_install.cmake",
+		"C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/mingw/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/mingw/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,29 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "mingw",
+      "displayName": "MinGW with GoogleTest",
+      "generator": "MinGW Makefiles",
+      "binaryDir": "${sourceDir}/build/mingw",
+      "cacheVariables": {
+        "BUILD_TESTING": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "mingw",
+      "configurePreset": "mingw"
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "mingw",
+      "configurePreset": "mingw",
+      "output": {
+        "outputOnFailure": true
+      }
+    }
+  ]
+}

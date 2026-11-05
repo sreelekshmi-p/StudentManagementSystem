@@ -1,0 +1,543 @@
+Start testing: Nov 04 16:36 India Standard Time
+----------------------------------------------------------
+1/20 Testing: StudentManagementMockTests.ReportsSuccessfulStudentAddition
+1/20 Test: StudentManagementMockTests.ReportsSuccessfulStudentAddition
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagementMockTests.ReportsSuccessfulStudentAddition" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagementMockTests.ReportsSuccessfulStudentAddition" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagementMockTests.ReportsSuccessfulStudentAddition
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagementMockTests
+[ RUN      ] StudentManagementMockTests.ReportsSuccessfulStudentAddition
+[       OK ] StudentManagementMockTests.ReportsSuccessfulStudentAddition (0 ms)
+[----------] 1 test from StudentManagementMockTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagementMockTests.ReportsSuccessfulStudentAddition" end time: Nov 04 16:36 India Standard Time
+"StudentManagementMockTests.ReportsSuccessfulStudentAddition" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/20 Testing: StudentManagementMockTests.ReportsDependencyFailureWhenAdditionIsRejected
+2/20 Test: StudentManagementMockTests.ReportsDependencyFailureWhenAdditionIsRejected
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagementMockTests.ReportsDependencyFailureWhenAdditionIsRejected" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagementMockTests.ReportsDependencyFailureWhenAdditionIsRejected" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagementMockTests.ReportsDependencyFailureWhenAdditionIsRejected
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagementMockTests
+[ RUN      ] StudentManagementMockTests.ReportsDependencyFailureWhenAdditionIsRejected
+[       OK ] StudentManagementMockTests.ReportsDependencyFailureWhenAdditionIsRejected (0 ms)
+[----------] 1 test from StudentManagementMockTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagementMockTests.ReportsDependencyFailureWhenAdditionIsRejected" end time: Nov 04 16:36 India Standard Time
+"StudentManagementMockTests.ReportsDependencyFailureWhenAdditionIsRejected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/20 Testing: StudentManagementMockTests.ReportsRejectedDuplicateRecord
+3/20 Test: StudentManagementMockTests.ReportsRejectedDuplicateRecord
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagementMockTests.ReportsRejectedDuplicateRecord" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagementMockTests.ReportsRejectedDuplicateRecord" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagementMockTests.ReportsRejectedDuplicateRecord
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagementMockTests
+[ RUN      ] StudentManagementMockTests.ReportsRejectedDuplicateRecord
+[       OK ] StudentManagementMockTests.ReportsRejectedDuplicateRecord (0 ms)
+[----------] 1 test from StudentManagementMockTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagementMockTests.ReportsRejectedDuplicateRecord" end time: Nov 04 16:36 India Standard Time
+"StudentManagementMockTests.ReportsRejectedDuplicateRecord" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/20 Testing: StudentManagementMockTests.DoesNotCallManagerWhenStudentIdIsMalformed
+4/20 Test: StudentManagementMockTests.DoesNotCallManagerWhenStudentIdIsMalformed
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagementMockTests.DoesNotCallManagerWhenStudentIdIsMalformed" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagementMockTests.DoesNotCallManagerWhenStudentIdIsMalformed" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagementMockTests.DoesNotCallManagerWhenStudentIdIsMalformed
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagementMockTests
+[ RUN      ] StudentManagementMockTests.DoesNotCallManagerWhenStudentIdIsMalformed
+[       OK ] StudentManagementMockTests.DoesNotCallManagerWhenStudentIdIsMalformed (0 ms)
+[----------] 1 test from StudentManagementMockTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagementMockTests.DoesNotCallManagerWhenStudentIdIsMalformed" end time: Nov 04 16:36 India Standard Time
+"StudentManagementMockTests.DoesNotCallManagerWhenStudentIdIsMalformed" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/20 Testing: StudentManagementMockTests.CallsManagerOnceForEachValidAddition
+5/20 Test: StudentManagementMockTests.CallsManagerOnceForEachValidAddition
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagementMockTests.CallsManagerOnceForEachValidAddition" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagementMockTests.CallsManagerOnceForEachValidAddition" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagementMockTests.CallsManagerOnceForEachValidAddition
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagementMockTests
+[ RUN      ] StudentManagementMockTests.CallsManagerOnceForEachValidAddition
+[       OK ] StudentManagementMockTests.CallsManagerOnceForEachValidAddition (0 ms)
+[----------] 1 test from StudentManagementMockTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagementMockTests.CallsManagerOnceForEachValidAddition" end time: Nov 04 16:36 India Standard Time
+"StudentManagementMockTests.CallsManagerOnceForEachValidAddition" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/20 Testing: StudentManagerTests.NewManagerIsEmpty
+6/20 Test: StudentManagerTests.NewManagerIsEmpty
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagerTests.NewManagerIsEmpty" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagerTests.NewManagerIsEmpty" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagerTests.NewManagerIsEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagerTests
+[ RUN      ] StudentManagerTests.NewManagerIsEmpty
+[       OK ] StudentManagerTests.NewManagerIsEmpty (0 ms)
+[----------] 1 test from StudentManagerTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagerTests.NewManagerIsEmpty" end time: Nov 04 16:36 India Standard Time
+"StudentManagerTests.NewManagerIsEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/20 Testing: StudentManagerTests.AddsValidStudent
+7/20 Test: StudentManagerTests.AddsValidStudent
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagerTests.AddsValidStudent" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagerTests.AddsValidStudent" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagerTests.AddsValidStudent
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagerTests
+[ RUN      ] StudentManagerTests.AddsValidStudent
+[       OK ] StudentManagerTests.AddsValidStudent (0 ms)
+[----------] 1 test from StudentManagerTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagerTests.AddsValidStudent" end time: Nov 04 16:36 India Standard Time
+"StudentManagerTests.AddsValidStudent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/20 Testing: StudentManagerTests.FindsExistingStudentById
+8/20 Test: StudentManagerTests.FindsExistingStudentById
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagerTests.FindsExistingStudentById" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagerTests.FindsExistingStudentById" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagerTests.FindsExistingStudentById
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagerTests
+[ RUN      ] StudentManagerTests.FindsExistingStudentById
+[       OK ] StudentManagerTests.FindsExistingStudentById (0 ms)
+[----------] 1 test from StudentManagerTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagerTests.FindsExistingStudentById" end time: Nov 04 16:36 India Standard Time
+"StudentManagerTests.FindsExistingStudentById" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/20 Testing: StudentManagerTests.RejectsInvalidStudentData
+9/20 Test: StudentManagerTests.RejectsInvalidStudentData
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagerTests.RejectsInvalidStudentData" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagerTests.RejectsInvalidStudentData" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagerTests.RejectsInvalidStudentData
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagerTests
+[ RUN      ] StudentManagerTests.RejectsInvalidStudentData
+[       OK ] StudentManagerTests.RejectsInvalidStudentData (0 ms)
+[----------] 1 test from StudentManagerTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagerTests.RejectsInvalidStudentData" end time: Nov 04 16:36 India Standard Time
+"StudentManagerTests.RejectsInvalidStudentData" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/20 Testing: StudentManagerTests.AcceptsInclusiveIdAndMarksBoundaries
+10/20 Test: StudentManagerTests.AcceptsInclusiveIdAndMarksBoundaries
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagerTests.AcceptsInclusiveIdAndMarksBoundaries" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagerTests.AcceptsInclusiveIdAndMarksBoundaries" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagerTests.AcceptsInclusiveIdAndMarksBoundaries
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagerTests
+[ RUN      ] StudentManagerTests.AcceptsInclusiveIdAndMarksBoundaries
+[       OK ] StudentManagerTests.AcceptsInclusiveIdAndMarksBoundaries (0 ms)
+[----------] 1 test from StudentManagerTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagerTests.AcceptsInclusiveIdAndMarksBoundaries" end time: Nov 04 16:36 India Standard Time
+"StudentManagerTests.AcceptsInclusiveIdAndMarksBoundaries" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/20 Testing: StudentManagerTests.RejectsDuplicateIdAndKeepsOriginalRecord
+11/20 Test: StudentManagerTests.RejectsDuplicateIdAndKeepsOriginalRecord
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagerTests.RejectsDuplicateIdAndKeepsOriginalRecord" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagerTests.RejectsDuplicateIdAndKeepsOriginalRecord" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagerTests.RejectsDuplicateIdAndKeepsOriginalRecord
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagerTests
+[ RUN      ] StudentManagerTests.RejectsDuplicateIdAndKeepsOriginalRecord
+[       OK ] StudentManagerTests.RejectsDuplicateIdAndKeepsOriginalRecord (0 ms)
+[----------] 1 test from StudentManagerTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagerTests.RejectsDuplicateIdAndKeepsOriginalRecord" end time: Nov 04 16:36 India Standard Time
+"StudentManagerTests.RejectsDuplicateIdAndKeepsOriginalRecord" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/20 Testing: StudentManagerTests.ReturnsNullForMissingId
+12/20 Test: StudentManagerTests.ReturnsNullForMissingId
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagerTests.ReturnsNullForMissingId" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagerTests.ReturnsNullForMissingId" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagerTests.ReturnsNullForMissingId
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagerTests
+[ RUN      ] StudentManagerTests.ReturnsNullForMissingId
+[       OK ] StudentManagerTests.ReturnsNullForMissingId (0 ms)
+[----------] 1 test from StudentManagerTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagerTests.ReturnsNullForMissingId" end time: Nov 04 16:36 India Standard Time
+"StudentManagerTests.ReturnsNullForMissingId" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/20 Testing: StudentManagerTests.CalculatesAverageMarks
+13/20 Test: StudentManagerTests.CalculatesAverageMarks
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagerTests.CalculatesAverageMarks" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagerTests.CalculatesAverageMarks" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagerTests.CalculatesAverageMarks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagerTests
+[ RUN      ] StudentManagerTests.CalculatesAverageMarks
+[       OK ] StudentManagerTests.CalculatesAverageMarks (0 ms)
+[----------] 1 test from StudentManagerTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagerTests.CalculatesAverageMarks" end time: Nov 04 16:36 India Standard Time
+"StudentManagerTests.CalculatesAverageMarks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/20 Testing: StudentManagerTests.FindsHighestMarkAndKeepsFirstOnTie
+14/20 Test: StudentManagerTests.FindsHighestMarkAndKeepsFirstOnTie
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagerTests.FindsHighestMarkAndKeepsFirstOnTie" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagerTests.FindsHighestMarkAndKeepsFirstOnTie" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagerTests.FindsHighestMarkAndKeepsFirstOnTie
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagerTests
+[ RUN      ] StudentManagerTests.FindsHighestMarkAndKeepsFirstOnTie
+[       OK ] StudentManagerTests.FindsHighestMarkAndKeepsFirstOnTie (0 ms)
+[----------] 1 test from StudentManagerTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagerTests.FindsHighestMarkAndKeepsFirstOnTie" end time: Nov 04 16:36 India Standard Time
+"StudentManagerTests.FindsHighestMarkAndKeepsFirstOnTie" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/20 Testing: StudentManagerTests.DisplaysMessageWhenEmpty
+15/20 Test: StudentManagerTests.DisplaysMessageWhenEmpty
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagerTests.DisplaysMessageWhenEmpty" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagerTests.DisplaysMessageWhenEmpty" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagerTests.DisplaysMessageWhenEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagerTests
+[ RUN      ] StudentManagerTests.DisplaysMessageWhenEmpty
+[       OK ] StudentManagerTests.DisplaysMessageWhenEmpty (0 ms)
+[----------] 1 test from StudentManagerTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagerTests.DisplaysMessageWhenEmpty" end time: Nov 04 16:36 India Standard Time
+"StudentManagerTests.DisplaysMessageWhenEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/20 Testing: StudentManagerTests.DisplaysStoredStudent
+16/20 Test: StudentManagerTests.DisplaysStoredStudent
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentManagerTests.DisplaysStoredStudent" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentManagerTests.DisplaysStoredStudent" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentManagerTests.DisplaysStoredStudent
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentManagerTests
+[ RUN      ] StudentManagerTests.DisplaysStoredStudent
+[       OK ] StudentManagerTests.DisplaysStoredStudent (0 ms)
+[----------] 1 test from StudentManagerTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StudentManagerTests.DisplaysStoredStudent" end time: Nov 04 16:36 India Standard Time
+"StudentManagerTests.DisplaysStoredStudent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/20 Testing: StudentTests.CanCreateStudentWithProvidedValues
+17/20 Test: StudentTests.CanCreateStudentWithProvidedValues
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentTests.CanCreateStudentWithProvidedValues" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentTests.CanCreateStudentWithProvidedValues" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentTests.CanCreateStudentWithProvidedValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentTests
+[ RUN      ] StudentTests.CanCreateStudentWithProvidedValues
+[       OK ] StudentTests.CanCreateStudentWithProvidedValues (0 ms)
+[----------] 1 test from StudentTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StudentTests.CanCreateStudentWithProvidedValues" end time: Nov 04 16:36 India Standard Time
+"StudentTests.CanCreateStudentWithProvidedValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/20 Testing: StudentTests.GetStudentIdReturnsProvidedId
+18/20 Test: StudentTests.GetStudentIdReturnsProvidedId
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentTests.GetStudentIdReturnsProvidedId" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentTests.GetStudentIdReturnsProvidedId" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentTests.GetStudentIdReturnsProvidedId
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentTests
+[ RUN      ] StudentTests.GetStudentIdReturnsProvidedId
+[       OK ] StudentTests.GetStudentIdReturnsProvidedId (0 ms)
+[----------] 1 test from StudentTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StudentTests.GetStudentIdReturnsProvidedId" end time: Nov 04 16:36 India Standard Time
+"StudentTests.GetStudentIdReturnsProvidedId" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/20 Testing: StudentTests.GetStudentNameReturnsProvidedName
+19/20 Test: StudentTests.GetStudentNameReturnsProvidedName
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentTests.GetStudentNameReturnsProvidedName" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentTests.GetStudentNameReturnsProvidedName" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentTests.GetStudentNameReturnsProvidedName
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentTests
+[ RUN      ] StudentTests.GetStudentNameReturnsProvidedName
+[       OK ] StudentTests.GetStudentNameReturnsProvidedName (0 ms)
+[----------] 1 test from StudentTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StudentTests.GetStudentNameReturnsProvidedName" end time: Nov 04 16:36 India Standard Time
+"StudentTests.GetStudentNameReturnsProvidedName" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/20 Testing: StudentTests.GetMarksReturnsProvidedMarks
+20/20 Test: StudentTests.GetMarksReturnsProvidedMarks
+Command: "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/StudentManagementTests.exe" "--gtest_filter=StudentTests.GetMarksReturnsProvidedMarks" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build
+"StudentTests.GetMarksReturnsProvidedMarks" start time: Nov 04 16:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\labuser\C++ Training\05_Debugging And Code UNderstanding\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = StudentTests.GetMarksReturnsProvidedMarks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StudentTests
+[ RUN      ] StudentTests.GetMarksReturnsProvidedMarks
+[       OK ] StudentTests.GetMarksReturnsProvidedMarks (0 ms)
+[----------] 1 test from StudentTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"StudentTests.GetMarksReturnsProvidedMarks" end time: Nov 04 16:36 India Standard Time
+"StudentTests.GetMarksReturnsProvidedMarks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 04 16:36 India Standard Time
