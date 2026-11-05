@@ -31,12 +31,12 @@ jobs:
 
       - name: Configure CMake
         shell: msys2 {0}
-        run: cmake -S . -B build -G "MinGW Makefiles" -DBUILD_TESTING=ON
+        run: cmake -S . -B "$RUNNER_TEMP/student-management-build" -G "MinGW Makefiles" -DBUILD_TESTING=ON
 
       - name: Build application and tests
         shell: msys2 {0}
-        run: cmake --build build --target StudentManagementSystem StudentManagementTests --parallel
+        run: cmake --build "$RUNNER_TEMP/student-management-build" --target StudentManagementSystem StudentManagementTests --parallel
 
       - name: Run tests
         shell: msys2 {0}
-        run: ctest --test-dir build --output-on-failure
+        run: ctest --test-dir "$RUNNER_TEMP/student-management-build" --output-on-failure --no-tests=error

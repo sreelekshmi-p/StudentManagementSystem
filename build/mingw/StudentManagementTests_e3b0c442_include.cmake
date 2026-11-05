@@ -1,5 +1,0 @@
-if(EXISTS "C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/mingw/StudentManagementTests_e3b0c442_tests.cmake")
-  include("C:/Users/labuser/C++ Training/05_Debugging And Code UNderstanding/build/mingw/StudentManagementTests_e3b0c442_tests.cmake")
-else()
-  add_test(StudentManagementTests_NOT_BUILT StudentManagementTests_NOT_BUILT)
-endif()
