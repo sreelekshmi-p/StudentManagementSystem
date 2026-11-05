@@ -31,7 +31,7 @@ jobs:
 
       - name: Configure CMake
         shell: msys2 {0}
-        run: cmake -S . -B "$RUNNER_TEMP/student-management-build" -G "MinGW Makefiles" -DBUILD_TESTING=ON
+        run: cmake -S . -B "$RUNNER_TEMP/student-management-build" -G "MinGW Makefiles" -DBUILD_TESTING=ON -DCMAKE_BUILD_TYPE=Release
 
       - name: Build application and tests
         shell: msys2 {0}
@@ -40,3 +40,22 @@ jobs:
       - name: Run tests
         shell: msys2 {0}
         run: ctest --test-dir "$RUNNER_TEMP/student-management-build" --output-on-failure --no-tests=error
+
+      - name: Prepare application artifact
+        shell: pwsh
+        run: |
+          $executable = Join-Path $env:RUNNER_TEMP 'student-management-build/StudentManagementSystem.exe'
+          if (-not (Test-Path -LiteralPath $executable -PathType Leaf)) {
+            throw "Application executable is missing: $executable"
+          }
+          $deliveryDirectory = Join-Path $env:RUNNER_TEMP 'student-management-delivery'
+          New-Item -ItemType Directory -Path $deliveryDirectory -Force | Out-Null
+          Copy-Item -LiteralPath $executable -Destination (Join-Path $deliveryDirectory 'StudentApp.exe') -ErrorAction Stop
+
+      - name: Upload Release application
+        uses: actions/upload-artifact@v4
+        with:
+          name: StudentApp-Release
+          path: ${{ runner.temp }}/student-management-delivery/StudentApp.exe
+          if-no-files-found: error
+          retention-days: 7
